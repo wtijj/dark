@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人网页</title>
+    <style>
+        .image{
+            position: absolute; /*设置为绝对定位*/
+            bottom: 0; /*将图片底部与容器底部对齐*/
+            left: 50%; /*将图片的水平中心与容器的水平中心对齐*/
+            transform: translateX(-50%);
+        }
+        .centered-div {
+          width: 50%;
+          margin: 0 auto;
+          background-color: #8a8787;
+          text-align: center;
+        }
+        .rounded-divd {
+          border-top-left-radius: 50px;
+          border-top-right-radius: 50px;
+          border-bottom-left-radius: 50px;
+          border-bottom-right-radius: 50px;
+        }
+        .content {
+          position: absolute;
+          top: 50%;
+          left: 10px;
+          right: 10px;
+        }
+    </style>
+</head>
+
+
+<body>
+<div 
+class="rounded-divd"
+class="content"
+style="
+  background-color: #8a8787;
+  padding: 100px;
+  position: relative; /*设置为相对定位*/
+">
+    <img src="C:\Users\-----WH-----\Desktop\PHONE down\face.png" alt= "魏涵"   width = "200px" height = "200px" class="image">
+</div>
+<div 
+
+class="centered-div"
+style="
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 15px;
+  line-height: 2.5;
+  display: block;
+  
+">
+    <p><font color="gold">你好呀！欢迎光临我的个人网页!</font></p>
+    <p><font color="lightskyblue">在这里，你可以初步了解我，只需依次点击点击下方三个选项</font></p>
+    <p >我的姓名籍贯</p>
+    <p >我能做到什么</p>
+    <p >我的工作履历</p>
+
+</div>
+<div style="
+  background-color: #f1f1f1;
+  text-align : center;
+  padding: 40px;
+  font-size: 12px;
+  ">
+  <p>我的网站</p>
+  <a href="https://weihan.com/">友情链接</a>
+</div>
+
+</body>
+</html>
